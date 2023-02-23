@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct as2
+struct as1
 {
     int student_num;
     int student_id;
