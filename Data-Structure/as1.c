@@ -2,7 +2,7 @@
  * file as1.c
  * date 23-02-2023
  * author Mohammad Deryl Ihzacky
- * NIM: 2602181276
+ * NIM 2602181276
  * brief Tugas 1 - Structure
 **/
 
