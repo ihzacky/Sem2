@@ -30,6 +30,8 @@ void view_arr(int size){
             printf("ID:\t%d\n", student[i].student_id); 
             printf("Name:\t%s\n", student[i].student_name); 
             printf("GPA:\t%.2f\n\n", student[i].student_gpa);
+
+            printf("%d %s %.2f\n\n", student[i].student_id, student[i].student_name, student[i].student_gpa);
         }
     }
 }
