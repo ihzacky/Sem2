@@ -37,9 +37,15 @@ void print_data(){
     struct node *temp = head;
     while (temp != NULL){
 
-        printf("%dX^%d", temp -> coef, temp -> pow);
-        temp = temp -> link;   
+        if (temp -> pow == 0){
 
+            printf("%d", temp -> coef);
+        } else{
+            
+            printf("%dX^%d", temp -> coef, temp -> pow);
+        }
+
+        temp = temp -> link; 
         if (temp != NULL) {
             printf(" + ");
         }     
